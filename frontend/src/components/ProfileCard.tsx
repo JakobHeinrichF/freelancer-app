@@ -1,5 +1,5 @@
 'use client'
-import type { ProfileResult } from '@/lib/api'
+import type { ProfileResult } from '../lib/api'
 
 interface Props {
   profile: ProfileResult

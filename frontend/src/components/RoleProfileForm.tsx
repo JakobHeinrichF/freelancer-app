@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import type { RoleProfile } from '@/lib/api'
+import type { RoleProfile } from '../lib/api'
 
 interface Props {
   onSubmit: (role: RoleProfile) => void
