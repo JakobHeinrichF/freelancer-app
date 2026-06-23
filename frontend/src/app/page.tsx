@@ -1,10 +1,10 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
-import RoleProfileForm from '/components/RoleProfileForm'
-import ProfileCard from '/components/ProfileCard'
-import SearchStatus from '/components/SearchStatus'
-import { startSearch, pollSearch, downloadDocx } from '/lib/api'
-import type { RoleProfile, ProfileResult, SearchStatus as SearchStatusType } from '/lib/api'
+import RoleProfileForm from '../components/RoleProfileForm'
+import ProfileCard from '../components/ProfileCard'
+import SearchStatus from '../components/SearchStatus'
+import { startSearch, pollSearch, downloadDocx } from '../lib/api'
+import type { RoleProfile, ProfileResult, SearchStatus as SearchStatusType } from '../lib/api'
 
 type AppState = 'idle' | 'running' | 'done' | 'error'
 
