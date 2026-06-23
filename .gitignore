@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+.env.local
+.env.production
+
+# Misc
+.DS_Store
+*.docx
+!template/GS_Profile_Template.docx
